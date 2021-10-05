@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @imxaander
-- 👀 I’m interested in making softwares...
-- 🌱 I’m currently learning java
+- 👀 I’m interested in making something cool...
+- 🌱 I’m currently learning web dev
 - 💞️ I’m looking to collaborate on a usefulware
 - 📫 How to reach me (discord = imxaander#3935)
 
