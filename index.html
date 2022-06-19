@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css">
+    <script type="text/javascript" src="js/script.js"></script>
+    <link rel="stylesheet" href="js/highlightjs/styles/default.min.css">
+    <script src="js/highlightjs/highlight.min.js"></script>
+    <script src="https://kit.fontawesome.com/6b9c8a6e93.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
+    <title>Xander</title>
+  </head>
+  <body>
+    <!-- Backgrounds -->
+    <div class="bgS">
+      <pre>
+        <code class="language-js">
+        var gS;
+        var gN;
+        var names = [];
+
+        function addToArray(){
+          let n2a = document.getElementById('groupnames').value;
+          if (!n2a == "") {
+            var namesC = document.getElementById("namess");
+            document.getElementById('groupnames').value = "";
+            names.push(n2a);
+            namesC.innerHTML += n2a + "<br>";
+          }
+        }
+
+        function refreshValues(){
+            gS = document.getElementById('gS').value;
+            gN = document.getElementById('gN').value;
+        }
+        </code>
+      </pre>
+
+      <pre style="float: right; font-size: 15px;">
+        <code class="language-js">
+            var gS;
+            var gN;
+            var names = [];
+
+          function addToArray(){
+            let n2a = document.getElementById('groupnames').value;
+            if (!n2a == "") {
+            var namesC = document.getElementById("namess");
+            document.getElementById('groupnames').value = "";
+            names.push(n2a);
+            namesC.innerHTML += n2a + "<br>";
+
+            }
+          }
+          function refreshValues(){
+            gS = document.getElementById('gS').value;
+            gN = document.getElementById('gN').value;
+          }
+        </code>
+      </pre>
+
+    </div>
+    <!-- Tabs -->
+    <div class="tab">
+      <button class="tablinks" href="index.html" style="float: left;">imxaander.</button>
+      <button class="tablinks" onclick="openTab(event, 'MyFavourites')">My Favourites</button>
+      <button class="tablinks" onclick="openTab(event, 'Contacts')">Contacts</button>
+      <button class="tablinks" onclick="openTab(event, 'Portfolio')">Portfolio</button>
+      <button class="tablinks" onclick="openTab(event, 'About')">About</button>
+      <button class="tablinks active" onclick="openTab(event, 'Home')">Home</button>
+    </div>
+
+    <!-- Tab contents -->
+    <div id="Home" class="tabcontent" style="display: block">
+      
+
+        <div class="homewrapper1">
+          <div>
+            <br>
+            <h1><b>Hi, I am <span class="scolor">Xander</span>.</b></h1>
+              <p>Student, GameDev, Human.</p>
+            <a href="#learnmore1">Learn More ></a>
+          </div>
+          <img src="img/xander_main_img.png" id="main_img"alt="">
+        </div>
+        <br><br>
+        <div class="homewrapper2" id="learnmore1">
+          <h1 align="center">Hello!</h1>
+          <p class="pg">I am Xander, a 17 year old computer enthusiast. Currently studying ICT - CSS in Manila, Philippines and writing codes for softwares, including Games, Tools, and fun stuffs. </p>
+        </div>
+
+        <div class="homewrapper3">
+          <a href="#" onclick="openTab(event, 'About')">Check out more about me!</a>
+        </div>
+    </div>
+
+    <div id="About" class="tabcontent">
+      <br><br><br>
+      <h1 align="center">About</h1>
+      <div class="aboutwrapper1">
+
+        <div class="card" id="card1">
+          <img src="img/xander_main_img.png" id="" style="max-width:100%;
+max-height:100%; background-color: white;" alt="">
+          <div class="container">
+            <h3><b>Ison, Xander B.</b></h3>
+            <p>ICT - CSS Student</p>
+          </div>
+        </div>
+
+        <div class="text-container-right" id="textr1">
+          <br>
+          <p>I am Xander, a 17 year old computer enthusiast. Currently studying <span class="scolor">ICT - CSS</span> in <span class="scolor">Manila, Philippines</span> and writing codes for softwares, including Games, Tools, and fun stuffs.
+          I'd love to explore things, collaborate things, work with others or help everyone  in work about technology. This website is for you, to know more about me and meet the projects I had.
+          </p>
+
+          <br>
+          <p>In my past years, I studied programming languages like <span class="scolor">PHP, C#, Python, JavaScript</span>, and other languages, but the one language I know the best is JavaScript and a litle bit of PHP, its like im flooded with scripting languages.
+          I am now currently learning to use C# independently to make scratch softwares or utilities or even games.
+          </p>
+
+        </div>
+      </div>
+      <br><br><br><br>
+
+      <h2 align="center" class="scolor">Why I love programming</h2>
+      <div class="aboutwrapper1">
+        <div class="" style="text-indent: 30px;">
+          <p>I love programming because I can definitely make many things with it, like anything is possible if you work. I love the way to do it, I love technology and wanted to make a huge contribution to it.
+          </p>
+        </div>
+      </div>
+
+      <h2 align="center" class="scolor">Other things about me :</h2>
+      <div class="aboutwrapper1">
+        <div class="" style="text-indent: 30px;">
+          <p> Exploring is one thing I do always on things I am interested in.
+          </p>
+        </div>
+      </div>
+
+    </div>
+
+    <div id="Portfolio" class="tabcontent">
+      <br><br><br>
+      <h1 align="center">Portfolio</h1>
+      <p align="center"> I do programming most of the time, im gonna atleast share what ive worked/ working on.</p>
+      <br>
+      <div class="aboutwrapper1">
+        <div class="projects">
+
+          <div class="project">
+            <h3>Chat Application</h3>
+            <p>A Webapp with feature to create rooms and join is publicly</p>
+            <p>HTML, CSS, JS</p>
+            <a href="https://github.com/imxaander/chatjsv2.1">Open Github Project</a>
+          </div>
+
+          <div class="project">
+            <h3>Appointment System</h3>
+            <p>A Webapp that manages appointments and acts as main website for a appointment-oriented business.</p>
+            <p>PHP, MySQL, HTML, CSS, JS</p>
+            <a href="https://github.com/imxaander/J-Gonzales-Appointment-System">Open Github Project</a>
+          </div>
+
+          <div class="project">
+            <h3>Module Library</h3>
+            <p>A Webapp and Android App that stores Learning Modules for accessibility.</p>
+            <p>HTML, CSS, JS</p>
+            <a href="https://github.com/imxaander/modulelair">Open Github Project</a>
+          </div>
+
+          <div class="project">
+            <h3>Space Shooter</h3>
+            <p>A Game which youre going to shoot asteroids and other ships without getting hit by it.</p>
+            <p>JS</p>
+            <a href="https://imxaander.itch.io/space-shooter-with-ctjs">Play Game</a>
+          </div>
+
+          <div class="project">
+            <h3>Project A (Untitled)</h3>
+            <p>A Game with shooting mechanics yet, platformer movement and other stuff</p>
+            <p>JS</p>
+            <a href="https://imxaander.itch.io/project-a">Play Game</a>
+          </div>
+
+          <div class="project">
+            <h3>Evade the Bomb</h3>
+            <p>A Platformer Game with just evading bombs that bounce while earning points.</p>
+            <p>JS</p>
+            <a href="https://imxaander.itch.io/evade-the-bomb">Play Game</a>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+
+    <div id="Contacts" class="tabcontent">
+      <br><br><br>
+      <h1 align="center">Contacts</h2>
+      <div class="aboutwrapper1" id="contact-list">
+        <a href="https://www.facebook.com/imxaander" data-bs-toggle="tooltip" title="Facebook" ><i class="fab fa-facebook"></i></a>
+        <a href="https://twitter.com/CranxxG" data-bs-toggle="tooltip" title="Twitter" ><i class="fab fa-twitter"></i></a>
+        <a href="https://www.instagram.com/nuwaanns/" data-bs-toggle="tooltip" title="Instagram"><i class="fab fa-instagram"></i></a>
+        <a href="https://github.com/imxaander" data-bs-toggle="tooltip" title="Github"><i class="fab fa-github"></i></a>
+        <a href="https://imxaander.itch.io/" data-bs-toggle="tooltip" title="Itch"><i class="fab fa-itch-io"></i></a>
+        <a href="mailto:xander22.ison@gmail.com" data-bs-toggle="tooltip" title="Email Xander"><i class="fas fa-envelope"></i></a>
+        <a href="https://www.youtube.com/channel/UC3t95KG-LpnK-2GaHYk7V3A" data-bs-toggle="tooltip" title="Youtube"><i class="fab fa-youtube"></i></a>
+      </div>
+    </div>
+
+    <div id="MyFavourites" class="tabcontent">
+      <h1 align="center">My Favourites</h1>
+      <div class="aboutwrapper1">
+        <h2 class="scolor" align="center">Music</h2>
+        <div class="C3">
+          <div class="C3-items">
+            <a href="https://www.youtube.com/channel/UCFl7yKfcRcFmIUbKeCA-SJQ">
+            <img src="img/joji.png" class="tn">
+            <p align="center">JOJI</p>
+            </a>
+          </div>
+
+          <div class="C3-items">
+            <a href="https://www.youtube.com/channel/UCRmShE13u8THvf_ptRVktRg">
+            <img src="img/10cm.png" class="tn">
+            <p align="center">10CM</p>
+            </a>
+          </div>
+
+          <div class="C3-items">
+            <a href="https://www.youtube.com/channel/UC7hJAdXkTLTjEPNjYK5wzbg">
+            <img src="img/yangdail.png" class="tn">
+            <p align="center">Yang Da Il (양다일)</p>
+            </a>
+          </div>
+        </div>
+
+        <h2 class="scolor" align="center">Paintings</h2>
+        <div class="C3">
+          <div class="C3-items">
+            <a href="https://artsandculture.google.com/asset/the-starry-night-vincent-van-gogh/bgEuwDxel93-Pg">
+            <img src="img/starrynight.png" class="tn">
+            <p align="center">Vincent van Gogh - Starry Night</p>
+            </a>
+          </div>
+
+          <div class="C3-items">
+            <a href="https://artsandculture.google.com/asset/blue-water-lilies/1QFF7Ef6R2oyog">
+            <img src="img/bwl.png" class="tn">
+            <p align="center">Claude Monet - Blue Watter Lillies</p>
+            </a>
+          </div>
+
+          <div class="C3-items">
+            <a href="https://artsandculture.google.com/asset/the-scream-edvard-munch/eQFdRTFKDtVQ1A">
+            <img src="img/thescream.png" class="tn">
+            <p align="center">Edvard Munch - The Scream</p>
+            </a>
+          </div>
+        </div>
+
+        <h2 class="scolor" align="center">Nerds</h2>
+        <div class="C3">
+          <div class="C3-items">
+            <a href="https://www.forbes.com/profile/mark-zuckerberg/?sh=4d2678133e06">
+            <img src="img/zuckerberg.png" class="tn">
+            <p align="center">Mark Zuckerberg</p>
+            </a>
+          </div>
+
+          <div class="C3-items">
+            <a href="https://www.internethalloffame.org/inductees/linus-torvalds">
+            <img src="img/linus.png" class="tn">
+            <p align="center">Linus Torvalds</p>
+            </a>
+          </div>
+
+          <div class="C3-items">
+            <a href="https://www.britannica.com/biography/Fibonacci">
+            <img src="img/leonardo.jpg" class="tn">
+            <p align="center">Leonardo Pisano Fibonacci</p>
+            </a>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+    <div class="footer">
+      <p>© 2022 imxaander</p>
+    </div>
+  </body>
+</html>
