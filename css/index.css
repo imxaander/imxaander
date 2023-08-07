@@ -42,7 +42,7 @@ div.spacing{
   padding: 10px 12px;
   transition: 0.3s;
   float: right;
-  display: inline-block;
+  display: inline;
   position: relative;
   color: black;
 }
@@ -56,7 +56,6 @@ div.spacing{
 .tab button.active {
   background: rgb(13,137,222);
   background: linear-gradient(0deg, rgba(13,137,222,1) 17%, rgba(253,187,45,0) 100%);
-  background-position: ;
   color: white;
 }
 .tab button::after{
@@ -158,7 +157,7 @@ max-width: 75%;
   text-align: center;
 }
 .aboutwrapper1{
-  width: 60%;
+  
   margin-left: auto;
   margin-right: auto;
 }
@@ -195,14 +194,14 @@ img {
   background-color: white;
   padding: 10px;
   text-align: center;
+  flex-basis: 33.33%;
 }
 .project:hover {
   box-shadow: 0 8px 16px 0 rgb(161, 198, 223);
 }
 .projects{
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 10px;
+  display: flex;
+  flex-wrap: nowrap;
 }
 #contact-list{
   display: grid;
@@ -215,6 +214,8 @@ img {
 #contact-list a:hover{
   color: #c3c3c3;
 }
+
+
 .C3{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
