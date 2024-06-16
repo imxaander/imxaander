@@ -1,4 +1,4 @@
 # Hello, I am Xander Ison.
 ### Game, Web, Trash Developer
 
-<img src="https://myreadme.vercel.app/api/embed/imxaander?panels=userstatistics,toprepositories,toplanguages,commitgraph" alt="reimaginedreadme" />
+[![Xander's GitHub stats](https://github-readme-stats.vercel.app/api?username=imxaander)](https://github.com/imxaander)
