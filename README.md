@@ -12,8 +12,12 @@
 
   I dont believe i write the best code, but i believe i am the worst programmer ever.
   
-## I use Linux
-  Not for a quite time but i just want to say i use linux ok my tech stack includes codeigniter, html css js, sql php. But i can also code in c/c++, java, python, and bash. I use unity mainly for game development, but i have experiences in ct.js, phaser,js
+## Technologies
+   ok my tech stack includes linux, codeigniter, html css js, sql php. But i can also code in c/c++, java, python, and bash. I use unity mainly for game development, but i have experiences in ct.js, phaser.js.
+
+## Open Source
+  I do contribute to several open source projects like ckeditor, and other web tech projects. I am always planning to contribute to the emulation field of tech soon! It's just im so bad. 
+
 ### Some of my accessible projects (old, new, recent, trash)
 
 #### ShareLearn
@@ -24,6 +28,13 @@
 
 #### Random Tools
   [Demo](https://imxaander.tech) [Repo](https://github.com/imxaander/randomtools) <br>
-  Platform where you can watch asian dramas with no ads, spin the wheel, converge image to pdf but it is not yet specified.
+  Platform where you can watch asian dramas with no ads, spin the wheel, converge image to pdf but it is not yet specified. Anime is available but not rendered properly and also only works on firefox.
+
+#### MC Server Hosting Manager
+  [Repo](https://github.com/imxaander/xjvs)
+  It is a web projects that lets you host your servers locally, with also the use of PlayitGG scratch api to expose your server globally. It's not finished yet but the basic features are alrleady working...
+
+
 
 > I wont be able to add all projects here, there's too many of them that it is hard to choose which qualifies the bareminimum
+
