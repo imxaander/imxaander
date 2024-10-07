@@ -31,8 +31,8 @@
   Platform where you can watch asian dramas with no ads, spin the wheel, converge image to pdf but it is not yet specified. Anime is available but not rendered properly and also only works on firefox.
 
 #### MC Server Hosting Manager
-  [Repo](https://github.com/imxaander/xjvs)
-  It is a web projects that lets you host your servers locally, with also the use of PlayitGG scratch api to expose your server globally. It's not finished yet but the basic features are alrleady working...
+  [Repo](https://github.com/imxaander/xjvs) <br>
+  It is a web project that lets you host your servers locally, with also the use of PlayitGG scratch api to expose your server globally. It's not finished yet but the basic features are alrleady working...
 
 
 
