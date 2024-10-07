@@ -12,6 +12,8 @@
 
   I dont believe i write the best code, but i believe i am the worst programmer ever.
   
+## I use Linux
+  Not for a quite time but i just want to say i use linux ok my tech stack includes codeigniter, html css js, sql php. But i can also code in c/c++, java, python, and bash.
 ### Some of my accessible projects (old, new, recent, trash)
 
 #### ShareLearn
