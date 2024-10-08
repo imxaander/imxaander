@@ -1,10 +1,11 @@
 # Hello, I am Xander Ison.
-![Add a heading (1)](https://github.com/user-attachments/assets/b255757f-390f-49d7-9a5b-ab0db4ba8df1)
+![Add a heading (3)](https://github.com/user-attachments/assets/4e15d6c8-0cdb-4809-9dc3-449bc4c33d33)
+
 #### Quick Stats
 ![](https://komarev.com/ghpvc/?username=imxaander&style=for-the-badge)
 
 # About Me
-  I am `Xander Ison` a 19 year old computer enthusiast that believes using computer is the best way to. I am somewhat experienced in web technologies (including databases, web servers), game development, and in general programming.
+  I am `Xander Ison` a 19 year old computer enthusiast that believes using computer is the best way to die. I am somewhat experienced in web technologies (including databases, web servers), game development, and in general programming.
 
   I am currently a **student assistant backend developer** and **project repository manager** for a current web development project of our web development team in our school, under the administration of management information system. 
 
