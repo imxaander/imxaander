@@ -1,4 +1,4 @@
-# Hello, I am Xander Ison.
+# Hello, I am Xander Ison, I love C
 ![Add a heading (3)](https://github.com/user-attachments/assets/4e15d6c8-0cdb-4809-9dc3-449bc4c33d33)
 
 #### Quick Stats
